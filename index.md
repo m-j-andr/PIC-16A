@@ -5,3 +5,5 @@
 2. [`2-control.py`](./notes/2.md)
 
 3. [`3a-functions.py`, `3b-functions.py`, `3b-functions.ipynb`, and `3c-functions.py`](./notes/3.md)
+
+4. [`4-functions.py` unabbreviated pictures](./notes/4a.md) and [`4-functions.py` abbreviated pictures](./notes/4b.md)

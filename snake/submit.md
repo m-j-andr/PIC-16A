@@ -4,7 +4,16 @@
 <canvas id="snake">This should be a canvas for playing Snake.</canvas><br>
 
 <textarea id="code" rows="11" cols="78" style="font-family:monospace">def update_snake(direction, snake, apple):
-    snake.insert(0, (snake[0][0] + 1, 4))</textarea>
+    snake.insert(0, (snake[0][0] + 1, 4))
+
+    # Comparing tuples using ==
+    # will be problematic for the
+    # JavaScript conversion that takes place.
+    # I suggest comparing their coordinates instead.
+
+    # Using "for t in snake:"
+    # will be problematic for the
+    # JavaScript conversion that takes place.</textarea>
 <input type="button" value="Submit code" id="submit_button">
 
 <script src="https://cdn.jsdelivr.net/pyodide/v0.27.5/full/pyodide.js"></script>

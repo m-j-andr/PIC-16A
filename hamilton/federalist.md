@@ -51,22 +51,26 @@ Python is the programming language of Data Science, so we should do some Data Sc
 
 
 
-## Addressing the question. Hamilton Or Not Hamilton? That Is The Question!
+## Addressing the question.
 
 You will attack this problem in `hw2_q2.py`, `hw2_q3.py`, `hw2_q4.py`, and `hw2_q5.py`;
 `hw2_q1.py` provides a warm up activity. Here, I want to explain where you are headed.
 
  - The main idea is to go through essay by essay and focus on the essays that
    are confirmed to be written by just Hamilton or just Madison.
+
  - For each of these essays, you can record the words that are used
    and how many times they are used.
- - Once you have this data for Hamilton and Madison, you can focus on...
-   - words used by both Hamilton and Madison, but used much more by Hamilton;
-   - words used by both Hamilton and Madison, but used much more by Madison;
-   - words used only by Hamilton, and used enough that they are not just weird words;
-   - words used only by Madison, and used enough that they are not just weird words.
 
-   In this way, you will have found identifier words for Hamilton and Madison.
+ - Once you have this data for Hamilton and Madison, you can focus on...
+
+   - words used by both Hamilton and Madison that are used much more by Hamilton;
+   - words used by both Hamilton and Madison that are used much more by Madison;
+   - words used only by Hamilton, used enough so that they are not ultra-rare words;
+   - words used only by Madison, used enough so that they are not ultra-rar words.
+
+   In this way, you will find identifier words for Hamilton and Madison.
+
  - Finally, you can look at the "MADISON or HAMILTON" essays and
    count how many times each of these identifier words is used.
    It will then be up to you to decide how to use the data
@@ -80,6 +84,8 @@ by counting alphabetic characters.
 A tuple is returned to create the illusion
 of returning two values.
 
+<br>
+
 
 ### `hw2_q2.py`
 
@@ -88,6 +94,8 @@ The author is written in the text files and
 it is always in approximately the same position.
 Using this observation, one can write a function to
 extract the author from a string containing an essay.
+
+<br>
 
 
 ### `hw2_q3.py`
@@ -99,6 +107,8 @@ There are two main differences.
    a dictionary which is passed to it.
    This is so that the function can be used to
    collect cumulative data for Hamilton and Madison.
+
+<br>
 
 
 ### `hw2_q4.py`
@@ -116,7 +126,7 @@ For example, the most common word in Hamilton's and Madison's essays is "the" (l
 
 Once we have the frequency of each word,
 we can evaluate whether various words are
-identifying words for Hamilton and Madison.
+*identifying words* for Hamilton and Madison.
 
 For example, Hamilton uses the word "coin" twice and Madison uses the word 15 times.
 These occurrences corresponds to frequencies of 0.0000175 and 0.0003627,
@@ -127,6 +137,8 @@ One has to decide on a threshold for when one regards a word as identifying
 for one author and that is the job of the parameters in the function
 `get_identifying_words`.
 
+<br>
+
 
 ### `hw2_q5.py`
 
@@ -135,12 +147,12 @@ which uses the previously defined functions to find identifying words
 for Hamilton and Madison. Finally, it is left to you to use these words
 to help make conclusions about the "MADISON or HAMILTON" papers.
 
-I think some conclusionw are easier to make and
-others are much more uncertain.
+I think some conclusions are easier to reach
+and others are much more uncertain.
 To recieve full credit for this part,
 you need to reach the same conclusion as me
 for the essays where the conclusion is more clear.
-For the other papers, I do not mind what conclusion you reach
+For the other essays, I do not mind what conclusion you reach
 as long as you have engaged with the problem.
 
 

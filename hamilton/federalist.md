@@ -62,17 +62,17 @@ You will attack this problem in `hw2_q2.py`, `hw2_q3.py`, `hw2_q4.py`, and `hw2_
  - For each of these essays, you can record the words that are used
    and how many times they are used.
 
- - Once you have this data for Hamilton and Madison, you can focus on...
+ - Once you have this data for Hamilton and Madison, you can focus on the following.
 
-   - words used by both Hamilton and Madison that are used much more by Hamilton;
-   - words used by both Hamilton and Madison that are used much more by Madison;
-   - words used only by Hamilton, used enough so that they are not ultra-rare words;
-   - words used only by Madison, used enough so that they are not ultra-rar words.
+   - Words used by both Hamilton and Madison that are used much more by Hamilton.
+   - Words used by both Hamilton and Madison that are used much more by Madison.
+   - Words used by Hamilton only, used enough so that they are not ultra-rare words.
+   - Words used by Madison only, used enough so that they are not ultra-rare words.
 
-   In this way, you will find identifier words for Hamilton and Madison.
+   In this way, you will find identifying words for Hamilton and Madison.
 
  - Finally, you can look at the "MADISON or HAMILTON" essays and
-   count how many times each of these identifier words is used.
+   count how many times each of these identifying words is used.
    It will then be up to you to decide how to use the data
    in front of you to make a conclusion about each essay.
 

@@ -1,0 +1,7 @@
+
+federalist.zip was obtained from https://www.gutenberg.org/.
+
+It is intended for use within the United States in accordance with
+the Project Gutenberg License included with the ebook.
+If you are not within the United States,
+you should read the license before proceeding.

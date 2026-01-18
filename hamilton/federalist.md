@@ -76,6 +76,8 @@ You will attack this problem in `hw2_q2.py`, `hw2_q3.py`, `hw2_q4.py`, and `hw2_
    It will then be up to you to decide how to use the data
    in front of you to make a conclusion about each essay.
 
+<br>
+
 
 ### `hw2_q1.py`
 
@@ -120,6 +122,7 @@ Because of this, when considering which words Hamilton and Madison use, it makes
 For example, the most common word in Hamilton's and Madison's essays is "the" (lowercase).
  - Hamilton uses "the" 9778 times and Madison uses "the" 3830 times.
  - Although Madison uses "the" fewer times than Hamilton, it is a more common word for him.
+
    - In Hamilton essays, for every 100 words, there are about 8.5 occurrences of "the".
    - In Madison essays, for every 100 words, there are about 9.25 occurrences of "the".
    - We say that the *frequency* of the word "the" is 0.085 for Hamilton and 0.0925 for Madison.

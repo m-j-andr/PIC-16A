@@ -1,4 +1,4 @@
-# PIC 16A - Notes on some of the provided `.py` files.
+# PIC 16A - Notes on some of the provided `.py` and `.ipynb` files.
 
 1. [`1-starting_py.py`](./notes/1.md)
 
@@ -11,3 +11,5 @@
 5. [`5-func-scope.py`](./notes/5.md)
 
 6. [`6a-def-arg.py`](./notes/6.md)
+
+10. [`10-classes.ipynb`](./notes/10.md)

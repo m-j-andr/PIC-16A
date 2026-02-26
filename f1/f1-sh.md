@@ -1,4 +1,4 @@
-# Google Sheets - Creating Graphics For F1 TV
+# PIC 16A - Creating Graphics For F1 TV with Google Sheets
 
 
 

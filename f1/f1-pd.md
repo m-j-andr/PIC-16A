@@ -1,4 +1,4 @@
-# PIC 16A - Creating Graphics For F1 TV
+# PIC 16A - Creating Graphics For F1 TV with Pandas
 
 
 
@@ -68,7 +68,7 @@ you will create a similar graphic
 for **a different Formula One race:
 Circuit of the Americas (COTA) 2024**
 using race data obtained from
-[www.fia.com](www.fia.com){:target="_blank"}.
+[www.fia.com](https://www.fia.com){:target="_blank"}.
  - Doing so will help you to better understand
    the graphic for Hungary, and below,
    there are more questions about Hungary 2025
@@ -97,7 +97,7 @@ so that I can meet my favorite rookie, Fernando Alonso.
 Race data for
 the Circuit of the Americas (COTA) in 2024
 can be downloaded [here](./cota_24_pd.csv).
-Note that the drivers involved are
+Note that the drivers involved are:
  - Charles **Leclerc**,
  - Lando **Norris**,
  - Oscar **Piastri**,
@@ -111,9 +111,11 @@ Note that the drivers involved are
 **ASIDE.**
 For those who know and love Formula 1,
 the times of the first five laps
-were impacted by a safety car,
-and so they have been replaced by me
+were impacted by a safety car;
+they have been replaced
 to make the data nicer to work with.
+
+<br>
 
 
 ### Plotting the data
@@ -138,20 +140,22 @@ processed.plot(color=['red', 'orange', 'green', 'gold', 'blue'], ylabel=y_axis_l
 ```
 
 A notebook containing this code
-is available [here](./f1.ipynb).
+is available [here](./f1.ipynb)
+("right" click and select "Save Link As...").
+
+<br>
 
 
 ### What you need to submit to Gradescope
 
-By replacing the line which says
-`processed = laps  # Needs substantial editing!!`
+By replacing the line which says `processed = laps`
 by some other lines of code which process the data,
 the following chart can be produced.
 
 ![COTA 2024 Chart](./cota_24.png)
 
 - Replace the line
-  `processed = laps  # Needs substantial editing!!`
+  `processed = laps`
   by the necesssary lines of code
   so that the chart above is produced.
 - Submit `f1.ipynb` to Gradescope.
@@ -165,12 +169,10 @@ the following chart can be produced.
 A couple of remarks...
 
 - For my own solution, I replaced
-  `processed = laps  # Needs substantial editing!!`
-  by just six lines of code.
+  `processed = laps` by just six lines of code.
   I think that those six lines are much more rewarding
-  if you gradually work towards understanding the problem,
-  and you see a slower way to solve it using Google Sheets
-  first.
+  if you gradually work towards understanding the problem
+  and you see a slower way to solve it first.
 - Note that my graph starts on Lap 0 where
   all drivers are plotted with a "y-value" of 0.
   On a related note,
@@ -183,7 +185,7 @@ A couple of remarks...
 ## Data Analysis
 
 You do not need to turn in the answers to these questions.
-However, they are pretty much the point of all of this!
+However, they are the entire point of all of this!
 Why are you learning Python?
 Probably because it is
 the language most used by Data Scientists.
@@ -194,6 +196,8 @@ Answering these questions tests
 some of your progress
 towards being a Data Scientist
 or a person who can process data using Python.
+
+<br>
 
 
 
@@ -238,7 +242,7 @@ answer the following questions.
 
 ### Hungary 2025
 
-![Hungary 2025](./hung_2025.png)
+![Hungary 2025](./hung_25.png)
 
 We can now understand Formula 1 TV's graphic much better!
 

@@ -141,7 +141,7 @@ processed.plot(color=['red', 'orange', 'green', 'gold', 'blue'], ylabel=y_axis_l
 
 A notebook containing this code
 is available [here](./f1.ipynb)
-("right" click and select "Save Link As...").
+("right"-click and select "Save Link As...").
 
 <br>
 
@@ -154,30 +154,30 @@ the following chart can be produced.
 
 ![COTA 2024 Chart](./cota_24.png)
 
-- Replace the line
-  `processed = laps`
-  by the necesssary lines of code
-  so that the chart above is produced.
-- Submit `f1.ipynb` to Gradescope.
-- If you struggle to get started,
-  following [this tutorial](./f1-sh.md){:target="_blank"},
-  which guides you
-  to solve the same problem
-  using Google Sheets,
-  may be very helpful for you.
+ - Replace the line
+   `processed = laps`
+   by the necesssary lines of code
+   so that the chart above is produced.
+ - Submit `f1.ipynb` to Gradescope.
+ - If you struggle to get started,
+   following [this tutorial](./f1-sh.md){:target="_blank"},
+   which guides you
+   to solve the same problem
+   using Google Sheets,
+   may be very helpful for you.
 
 A couple of remarks...
 
-- For my own solution, I replaced
-  `processed = laps` by just six lines of code.
-  I think that those six lines are much more rewarding
-  if you gradually work towards understanding the problem
-  and you see a slower way to solve it first.
-- Note that my graph starts on Lap 0 where
-  all drivers are plotted with a "y-value" of 0.
-  On a related note,
-  there is an extra row in the data prepared for Google Sheets
-  when you compare it with the data prepared for Pandas.
+ - For my own solution, I replaced
+   `processed = laps` by just six lines of code.
+   I think that those six lines are much more rewarding
+   if you gradually work towards understanding the problem
+   and you see a slower way to solve it first.
+ - Note that my graph starts on Lap 0 where
+   all drivers are plotted with a "y-value" of 0.
+   On a related note,
+   there is an extra row in the data prepared for Google Sheets
+   when you compare it with the data prepared for Pandas.
 
 
 

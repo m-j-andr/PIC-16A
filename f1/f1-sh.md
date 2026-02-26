@@ -134,7 +134,7 @@ Using electronic tracking devices, each lap of a driver's race is timed precisel
     - Who was in the lead after lap 35?
     - Who was furthest back of the four drivers after lap 35?
     - Who was second and third on lap 50?
-   ![Hungary 2025](.hung_25.png)
+   ![Hungary 2025](./hung_25.png)
  - To create a chart for COTA 2024 like the one from Hungary 2025,
    we subtract the drivers' race times (R) from a straight line
    whose slope is given by the average lap time of

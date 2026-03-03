@@ -178,10 +178,11 @@ A few remarks...
    On a related note,
    there is an extra row in the data prepared for Google Sheets
    when you compare it with the data prepared for Pandas.
- - The best solutions will not use the number of laps,
+ - The best solutions will not hardcode the number of laps,
    the number of drivers, any driver names,
    or rely on knowing who won the race.
-   They will apply to a different race without any changes.
+   In particular, the logic used will
+   apply to a different race without any changes.
 
 
 
@@ -258,4 +259,3 @@ We can now understand Formula 1 TV's graphic much better!
  - How was Norris' pit stop strategy different than that of
    Piastri, Russell, and Leclerc in Hungary 2025?
  - "The driver who drives the fastest always wins the race." True or false? 
-

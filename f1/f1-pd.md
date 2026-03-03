@@ -166,11 +166,11 @@ the following chart can be produced.
    using Google Sheets,
    may be very helpful for you.
 
-A couple of remarks...
+A few remarks...
 
  - For my own solution, I replaced
-   `processed = laps` by just six lines of code.
-   I think that those six lines are much more rewarding
+   `processed = laps` by just four lines of code.
+   I think that those four lines are much more rewarding
    if you gradually work towards understanding the problem
    and you see a slower way to solve it first.
  - Note that my graph starts on Lap 0 where
@@ -178,6 +178,10 @@ A couple of remarks...
    On a related note,
    there is an extra row in the data prepared for Google Sheets
    when you compare it with the data prepared for Pandas.
+ - The best solutions will not use the number of laps,
+   the number of drivers, any driver names,
+   or rely on knowing who won the race.
+   They will apply to a different race without any changes.
 
 
 

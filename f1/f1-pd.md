@@ -174,7 +174,7 @@ A few remarks...
    if you gradually work towards understanding the problem
    and you see a slower way to solve it first.
  - Note that my graph starts on Lap 0 where
-   all drivers are plotted with a "y-value" of 0.
+   all drivers are plotted with a "$y$-value" of 0.
    On a related note,
    there is an extra row in the data prepared for Google Sheets
    when you compare it with the data prepared for Pandas.

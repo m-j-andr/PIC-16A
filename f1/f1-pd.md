@@ -156,7 +156,7 @@ the following chart can be produced.
 
  - Replace the line
    `processed = laps`
-   by the necesssary lines of code
+   by the necessary lines of code
    so that the chart above is produced.
  - Submit `f1.ipynb` to Gradescope.
  - If you struggle to get started,
@@ -259,3 +259,17 @@ We can now understand Formula 1 TV's graphic much better!
  - How was Norris' pit stop strategy different than that of
    Piastri, Russell, and Leclerc in Hungary 2025?
  - "The driver who drives the fastest always wins the race." True or false? 
+
+
+
+
+## Learning Objectives
+
+ - Comfort using Pandas.
+ - Experience looking up
+   Pandas functionality
+   (like inserting a row and
+   how to subtract a Series from
+   the columns in a DataFrame).
+ - Experience processing real life data.
+ - Experience analyzing real life data.
